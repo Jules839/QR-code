@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+
+.box {
+    position: absolute;
+    width: 300px;
+    height: 470px;
+    background-color: hsl(0, 0%, 100%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+.box img {
+    position: relative;
+    width: 90%;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.gras {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.fin {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400 bold;
+    color: hsl(220, 15%, 55%);
+}
